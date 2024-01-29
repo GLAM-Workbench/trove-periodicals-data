@@ -1,0 +1,16 @@
+{
+    "title": "GLAM Workbench Data Explorer",
+    "description": "Explore Trove's collection of digitised periodicals!",
+    "databases": {
+        "periodicals": {
+            "tables": {
+                "titles": {
+                    "sort": "title"
+                },
+                "issues": {
+                    "sort": "title_id"
+                }
+            }
+        }
+    }
+}
