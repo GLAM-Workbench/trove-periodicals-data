@@ -16,7 +16,7 @@
             },
             "hasPart": [
                 {
-                    "@id": "https://github.com/GLAM-Workbench/trove-journals/blob/None/periodicals-enrich-for-datasette.ipynb"
+                    "@id": "https://github.com/GLAM-Workbench/trove-journals/blob/master/periodicals-enrich-for-datasette.ipynb"
                 },
                 {
                     "@id": "titles-issues-added.ndjson"
@@ -31,7 +31,7 @@
                     "@id": "periodicals.db"
                 },
                 {
-                    "@id": "https://github.com/GLAM-Workbench/trove-journals/blob/None/periodicals-from-api.ipynb"
+                    "@id": "https://github.com/GLAM-Workbench/trove-journals/blob/master/periodicals-from-api.ipynb"
                 },
                 {
                     "@id": "periodical-titles-schema.json"
@@ -71,7 +71,7 @@
             }
         },
         {
-            "@id": "https://github.com/GLAM-Workbench/trove-journals/blob/None/periodicals-enrich-for-datasette.ipynb",
+            "@id": "https://github.com/GLAM-Workbench/trove-journals/blob/master/periodicals-enrich-for-datasette.ipynb",
             "@type": [
                 "File",
                 "SoftwareSourceCode"
@@ -94,7 +94,7 @@
             "programmingLanguage": {
                 "@id": "https://www.python.org/downloads/release/python-31012/"
             },
-            "url": "https://github.com/GLAM-Workbench/trove-journals/blob/None/periodicals-enrich-for-datasette.ipynb"
+            "url": "https://github.com/GLAM-Workbench/trove-journals/blob/master/periodicals-enrich-for-datasette.ipynb"
         },
         {
             "@id": "titles-issues-added.ndjson",
@@ -104,6 +104,10 @@
             ],
             "contentSize": 4030430,
             "dateModified": "2024-03-12",
+            "description": "This file contains data describing digitised periodicals available from Trove. The titles and issues data was harvested from the Trove API and combined into a single file. Duplicate titles and Commonwealth Parliamentary Papers were removed. Additional data on issues missing from the API results was scraped from Trove web pages.",
+            "license": {
+                "@id": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
             "name": "titles-issues-added.ndjson",
             "sdDatePublished": "2024-03-14",
             "size": 949,
@@ -157,7 +161,7 @@
             "url": "https://github.com/GLAM-Workbench/trove-periodicals-data/raw/main/periodicals.db"
         },
         {
-            "@id": "https://github.com/GLAM-Workbench/trove-journals/blob/None/periodicals-from-api.ipynb",
+            "@id": "https://github.com/GLAM-Workbench/trove-journals/blob/master/periodicals-from-api.ipynb",
             "@type": [
                 "File",
                 "SoftwareSourceCode"
@@ -180,7 +184,7 @@
             "programmingLanguage": {
                 "@id": "https://www.python.org/downloads/release/python-31012/"
             },
-            "url": "https://github.com/GLAM-Workbench/trove-journals/blob/None/periodicals-from-api.ipynb"
+            "url": "https://github.com/GLAM-Workbench/trove-journals/blob/master/periodicals-from-api.ipynb"
         },
         {
             "@id": "https://orcid.org/0000-0001-7956-4498",
@@ -254,7 +258,7 @@
             },
             "endDate": "2024-03-14",
             "instrument": {
-                "@id": "https://github.com/GLAM-Workbench/trove-journals/blob/None/periodicals-enrich-for-datasette.ipynb"
+                "@id": "https://github.com/GLAM-Workbench/trove-journals/blob/master/periodicals-enrich-for-datasette.ipynb"
             },
             "name": "Run of notebook: periodicals-enrich-for-datasette.ipynb",
             "object": [
@@ -306,7 +310,7 @@
             },
             "endDate": "2024-03-12",
             "instrument": {
-                "@id": "https://github.com/GLAM-Workbench/trove-journals/blob/None/periodicals-from-api.ipynb"
+                "@id": "https://github.com/GLAM-Workbench/trove-journals/blob/master/periodicals-from-api.ipynb"
             },
             "name": "Run of notebook: periodicals-from-api.ipynb",
             "result": [
