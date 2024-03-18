@@ -4,11 +4,11 @@ This dataset was created by checking, correcting, and enriching data about digit
 
 These datasets were generated using notebooks in the [trove-journals](https://github.com/GLAM-Workbench/trove-journals/) repository.
 
-For more information and documentation see the [None](https://glam-workbench.net/trove-journals/periodicals-data-api/) section of the [GLAM Workbench](https://glam-workbench.net).
+For more information and documentation see the [Details of digitised periodicals from the `/magazine/titles` API endpoint](https://glam-workbench.net/trove-journals/periodicals-data-api/) section of the [GLAM Workbench](https://glam-workbench.net).
 
 ## Dataset summary
 - [titles-issues-added.ndjson](https://github.com/GLAM-Workbench/trove-periodicals-data/raw/main/titles-issues-added.ndjson) (4.0 MB, ndjson)
-- [periodical-titles.csv](https://github.com/GLAM-Workbench/trove-periodicals-data/raw/main/periodical-titles.csv) (205.3 kB, text/csv)
+- [periodical-titles.csv](https://github.com/GLAM-Workbench/trove-periodicals-data/raw/main/periodical-titles.csv) (295.5 kB, text/csv)
 - [periodical-issues.csv](https://github.com/GLAM-Workbench/trove-periodicals-data/raw/main/periodical-issues.csv) (9.2 MB, text/csv)
 - [periodicals.db](https://github.com/GLAM-Workbench/trove-periodicals-data/raw/main/periodicals.db) (12.3 MB, db)
 
@@ -33,30 +33,31 @@ For more information and documentation see the [None](https://glam-workbench.net
 
 |                |                                                                                                                                                                                                                                                                    |
 |:---------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| date harvested | 2024-03-12                                                                                                                                                                                                                                                         |
-| file size      | 205.3 kB                                                                                                                                                                                                                                                           |
+| date harvested | 2024-03-18                                                                                                                                                                                                                                                         |
+| file size      | 295.5 kB                                                                                                                                                                                                                                                           |
 | format         | text/csv                                                                                                                                                                                                                                                           |
 | created by     | <a href='https://github.com/GLAM-Workbench/trove-journals/blob/master/periodicals-enrich-for-datasette.ipynb'>Enrich the list of periodicals from the Trove API</a> ([documentation](https://glam-workbench.net/trove-journals/periodicals-enrich-for-datasette/)) |
 | number of rows | 909                                                                                                                                                                                                                                                                |
 
 #### Columns
 
-| name            | type    | description                                          |
-|:----------------|:--------|:-----------------------------------------------------|
-| `id`            | string  | `nla.obj` identifier for the periodical              |
-| `title`         | string  | title of the periodical                              |
-| `description`   | string  | additional information, eg 'Issues 1-7 (incomplete)' |
-| `publisher`     | string  | publisher of periodical                              |
-| `trove_url`     | string  | url to view digitised periodical in Trove            |
-| `issue_count`   | integer | number of digitised issues in Trove                  |
-| `start_date`    | date    | earliest publication date                            |
-| `end_date`      | date    | latest publication date                              |
-| `start_year`    | integer | publication year of first digitised issue            |
-| `end_year`      | integer | publication year of last digitised issue             |
-| `extent`        | string  | physical description, eg: '2 v; 22 cm'               |
-| `place`         | string  | locations associated with this periodical            |
-| `issn`          | string  | ISSN                                                 |
-| `catalogue_url` | string  | link to NLA catalogue                                |
+| name            | type    | description                                                     |
+|:----------------|:--------|:----------------------------------------------------------------|
+| `id`            | string  | `nla.obj` identifier for the periodical                         |
+| `title`         | string  | title of the periodical                                         |
+| `description`   | string  | additional information, eg 'Issues 1-7 (incomplete)'            |
+| `publisher`     | string  | publisher of periodical                                         |
+| `trove_url`     | string  | url to view digitised periodical in Trove                       |
+| `download_text` | string  | url to download a zip file containing OCRd text from this title |
+| `issue_count`   | integer | number of digitised issues in Trove                             |
+| `start_date`    | date    | earliest publication date                                       |
+| `end_date`      | date    | latest publication date                                         |
+| `start_year`    | integer | publication year of first digitised issue                       |
+| `end_year`      | integer | publication year of last digitised issue                        |
+| `extent`        | string  | physical description, eg: '2 v; 22 cm'                          |
+| `place`         | string  | locations associated with this periodical                       |
+| `issn`          | string  | ISSN                                                            |
+| `catalogue_url` | string  | link to NLA catalogue                                           |
 
 ### [periodical-issues.csv](https://github.com/GLAM-Workbench/trove-periodicals-data/raw/main/periodical-issues.csv)
 
@@ -94,6 +95,7 @@ For more information and documentation see the [None](https://glam-workbench.net
 ## Examples of use
 
 - [Explore in Datasette](https://glam-workbench.net/datasette-lite/?url=https://github.com/GLAM-Workbench/trove-periodicals-data/blob/main/periodicals.db&install=datasette-json-html&install=datasette-template-sql&metadata=https://github.com/GLAM-Workbench/trove-periodicals-data/blob/main/metadata.json)
+- [Visualised in the Trove Data Guide](https://tdg.glam-workbench.net/other-digitised-resources/periodicals/overview.html)
 
 
 ----

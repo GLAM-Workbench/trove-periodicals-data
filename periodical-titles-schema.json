@@ -26,6 +26,11 @@
       "description": "url to view digitised periodical in Trove"
     },
     {
+      "name": "download_text",
+      "type": "string",
+      "description": "url to download a zip file containing OCRd text from this title"
+    },
+    {
       "name": "issue_count",
       "type": "integer",
       "description": "number of digitised issues in Trove"
